@@ -4,7 +4,7 @@
 
 개발 업체 : 넥스파시스템
 
-SW 명 : ICT MetaDataSend
+SW 명 : OpenCV320Client
 
 주요내용 : 메타데이타와 이미지를 전송받는 프로그램
 
