@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Common\launcher.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\packetqueue.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\streamingreceiver.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\streamingsender.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\tcpclient.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\tcpserver.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\udpclient.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\udpserver.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCV320Client.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCV320ClientDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\session.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\launcher.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\network.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\packetqueue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\protocol.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\session.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\streaming.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\streamingreceiver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\streamingsender.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\tcpclient.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\tcpserver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\udpclient.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\udpserver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCV320Client.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCV320ClientDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{292da942-5215-4115-8072-ae463ebbce8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{5f741df6-5f81-4faa-8dde-8ee72672e89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{8b810483-4c62-494a-a1a2-706bf07cd00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{53b5224c-bcb0-4f54-9709-1b087cc54c29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OpenCV320Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenCV320Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OpenCV320Client.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>
